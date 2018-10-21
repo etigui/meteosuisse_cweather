@@ -1,0 +1,22 @@
+{
+  "name": "meteosuisse_cweather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raccoonmaster/meteosuisse_cweather.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raccoonmaster/meteosuisse_cweather/issues"
+  },
+  "homepage": "https://github.com/raccoonmaster/meteosuisse_cweather#readme",
+  "dependencies": {
+    "puppeteer": "^1.9.0"
+  }
+}
