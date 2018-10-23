@@ -12,7 +12,8 @@ The npm commande will install puppeteer
   
   
 ## Result
-Icon file (state_day_time_name.svg) downloaded in the directory (./datas/icons)    
+Icon file (state_day_time_name.svg) downloaded in the directory (./datas/icons).    
+
 Json file (state_day_time.json) created with the current weather and 5 days forecast:
 
     Vernier_mardi_12h00.json
