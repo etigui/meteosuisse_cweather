@@ -8,12 +8,12 @@ The npm commande will install puppeteer
 
 ## Run
 
-    $ node index.js
+    $ node index.js 1214
   
   
 ## Result
-
-Json file (state_day_time.json) created with the current weather and 5 days forecast
+Icon file (state_day_time_name.svg) downloaded in the directory (datas/icons)    
+Json file (state_day_time.json) created with the current weather and 5 days forecast.
 
     [  
        {  
@@ -71,5 +71,6 @@ Json file (state_day_time.json) created with the current weather and 5 days fore
           "icon_local":"./datas/icons/Vernier_mardi_12h00_1.svg"
        }
     ]
+
 
 
