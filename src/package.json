@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/raccoonmaster/meteosuisse_cweather#readme",
   "dependencies": {
-    "minimist": "^1.2.0",
     "puppeteer": "^1.9.0"
   }
 }
