@@ -7,7 +7,6 @@ const fs = require('fs');
     const swiss_meteo_url = 'https://www.meteosuisse.admin.ch/home/meteo/previsions.html';
     
     if(location){
-
         try{
             const browser = await puppeteer.launch({headless: true});
             const page = await browser.newPage();
@@ -34,7 +33,7 @@ const fs = require('fs');
             try {
                 await page.waitForSelector('.autocomplete-list')
                 
-                            // Check user location
+            // Check user location
             const options = await page.$$('.autocomplete-list > li');
             if(options !== undefined){
                             
@@ -134,12 +133,11 @@ const fs = require('fs');
             console.log("Swiss meteo widget saved");
             await browser.close();
 
-            } catch (error) {
-                console.log("Autocomplete list postal code error")
+            }catch (error) {
+                console.log("Error autocomplete list postal code")
             }
         }catch(error){
             console.log('Error: ', error)
-
         }
     }else{
         console.log('You must add a valid swiss postal code');
