@@ -126,6 +126,7 @@ const fs = require('fs');
                     fs.writeFile("./datas/"+ c_city + "_" + c_date.replace('.','_') + c_time + ".json", JSON.stringify(weather), 'utf8', function (err) {
                         if (err) {
                             return console.log(err);
+                            process.exit(1);
                         }
                     });                 
                 }
@@ -135,9 +136,11 @@ const fs = require('fs');
 
             }catch (error) {
                 console.log("Error autocomplete list postal code")
+                process.exit(1);
             }
         }catch(error){
             console.log('Error: ', error)
+            process.exit(1);
         }
     }else{
         console.log('You must add a valid swiss postal code');
