@@ -126,7 +126,6 @@ const fs = require('fs');
                     fs.writeFile("./datas/"+ c_city + "_" + c_date.replace('.','_') + c_time + ".json", JSON.stringify(weather), 'utf8', function (err) {
                         if (err) {
                             return console.log(err);
-                            process.exit(1);
                         }
                     });                 
                 }
