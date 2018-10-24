@@ -11,7 +11,7 @@ const fs = require('fs');
             const browser = await puppeteer.launch({headless: true});
             const page = await browser.newPage();
 
-            // Act like nomal browser not as bot 
+            // Act like normal browser not as bot 
             page.setUserAgent('Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36');
 
             // Navigate on current weather widget and wait for link
