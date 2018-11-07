@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/raccoonmaster/meteosuisse_cweather.git"
+    "url": "git+https://github.com/etigui/meteosuisse_cweather.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/raccoonmaster/meteosuisse_cweather/issues"
+    "url": "https://github.com/etigui/meteosuisse_cweather/issues"
   },
-  "homepage": "https://github.com/raccoonmaster/meteosuisse_cweather#readme",
+  "homepage": "https://github.com/etigui/meteosuisse_cweather#readme",
   "dependencies": {
     "puppeteer": "^1.9.0"
   }
